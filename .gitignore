@@ -70,3 +70,4 @@ google-services.json
 # Android Profiling
 *.hprof
 >>>>>>> 74faa8f0f880362faa0f5220bde5ca747eac3978
+/target/

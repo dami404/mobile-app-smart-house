@@ -1,0 +1,1 @@
+DROP TABLE users, device_type, room, device, notiflication, statistics, state_type, state, action_type, action, condition, script;
