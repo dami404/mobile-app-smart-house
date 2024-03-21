@@ -23,10 +23,12 @@ CREATE TABLE device (
     user_id INTEGER REFERENCES users(id)
 );
 
-CREATE TABLE notiflication (
+CREATE TABLE notification (
     id SERIAL PRIMARY KEY,
     device_id INTEGER REFERENCES device(id),
-    user_id INTEGER REFERENCES users(id)
+    user_id INTEGER REFERENCES users(id),
+    time TIMESTAMP,
+    text VARCHAR(256)
 );
 
 CREATE TABLE statistics (
